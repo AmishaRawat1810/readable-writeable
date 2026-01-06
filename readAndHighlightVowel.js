@@ -1,5 +1,5 @@
 const convertText = (text) => {
-  const cyan = "\x1b[36m";
+  // const cyan = "\x1b[36m";
   const boldCyan = "\x1b[1;36m";
   const reset = "\x1b[0m";
   return text.split("").map((char) =>
